@@ -29,7 +29,9 @@
                 <%--
                 <h2><h:outputText value="Hello #{helloWorld.name}. We hope you enjoy Apache MyFaces"/></h2>
                 --%>
-                <h2><h:outputText value="Hi Saadhya"/></h2>
+
+                <h2><h:outputText value="Hi Welcome To USA" style="font-size: 24px; color: red;" /></h2>
+
                 <h:commandLink action="login">
                     <%--
                     
