@@ -12,13 +12,19 @@
                 height: 100vh;
                 margin: 0;
             }
+
+            /* Increase the font size of the output text */
+            h2 {
+                font-size: 36px;
+                color: red;
+            }
         </style>
     </head>
     <body>
         <f:view>
             <h:form id="mainForm">
                 <h2>
-                    <h:outputText value="Hi Welcome To USA" style="font-size: 24px; color: red;" />
+                    <h:outputText value="Hi Welcome To USA" />
                 </h2>
                 <h:commandLink action="login">
                     Home
