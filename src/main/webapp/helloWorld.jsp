@@ -27,7 +27,10 @@
         <f:view>
             <h:form id="mainForm">
               <h:panelGrid columns="2">
-                <h:outputLabel for="name" value="Please Click here to See u r Text:" />
+                  <h2>
+                  <h:outputLabel for="name" value="Welcome To IT VIDHYA SOLUTIONS" style="font-size: 24px; color: blue;" />
+                  </h2>
+
                 <h:inputText id="name" value="" required="true"/>
                 <h:commandButton value="Submit" action="#{helloWorld.send}"/>
                 <h:messages showDetail="true" showSummary="false"/>
