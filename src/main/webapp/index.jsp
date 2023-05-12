@@ -18,5 +18,5 @@
 --%>
 <%@ page session="false"%>
 <%
-response.sendRedirect("helloWorld.jsp");
+response.sendRedirect("helloWorld.jsf");
 %>
